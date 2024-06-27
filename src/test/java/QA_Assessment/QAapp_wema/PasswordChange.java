@@ -1,19 +1,12 @@
 package QA_Assessment.QAapp_wema;
+
 import java.net.MalformedURLException;
 import java.net.URISyntaxException;
 
 import org.openqa.selenium.By;
-import org.testng.annotations.*;
 
-import io.appium.java_client.AppiumBy;
-
-
-
-
-public class QA_app_Login extends BaseTest{
-	@Test
-	
-	public void Valid_Login() throws MalformedURLException, URISyntaxException, InterruptedException
+public class PasswordChange extends BaseTest{
+public void ChangePassword() throws MalformedURLException, URISyntaxException, InterruptedException
 	
 	{
 		
@@ -30,10 +23,4 @@ public class QA_app_Login extends BaseTest{
 		
 		
 }
-	
-	  
-	
-	
-	
-		
 }

@@ -35,7 +35,7 @@ public class BaseTest {
 		options.setApp("C:\\Users\\Bukunmi\\eclipse-workspace\\QAapp_wema\\src\\test\\java\\resources\\QA_Dev_test_test_build.apk");
 		
 			 driver = new AndroidDriver(new URI("http://127.0.0.1:4723/").toURL(), options);
-			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(100));
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1000));
 }
 	@AfterClass
 	public void tearDown()

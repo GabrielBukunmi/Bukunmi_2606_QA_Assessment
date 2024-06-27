@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-26T22:08:59 EDT" name="Default suite" finished-at="2024-06-26T22:09:22 EDT" duration-ms="22976">
+  <suite started-at="2024-06-27T11:36:00 EDT" name="Default suite" finished-at="2024-06-27T11:36:32 EDT" duration-ms="32786">
     <groups>
     </groups>
-    <test started-at="2024-06-26T22:08:59 EDT" name="Default test" finished-at="2024-06-26T22:09:22 EDT" duration-ms="22976">
-      <class name="QA_Assessment.QAapp_wema.OnboardingTest">
-        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:QA_Assessment.QAapp_wema.OnboardingTest@6989da5e]" started-at="2024-06-26T22:08:59 EDT" name="ConfigureAppium" finished-at="2024-06-26T22:09:12 EDT" duration-ms="13140" status="PASS">
+    <test started-at="2024-06-27T11:36:00 EDT" name="Default test" finished-at="2024-06-27T11:36:32 EDT" duration-ms="32786">
+      <class name="QA_Assessment.QAapp_wema.StaffSignUp">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:QA_Assessment.QAapp_wema.StaffSignUp@6989da5e]" started-at="2024-06-27T11:36:00 EDT" name="ConfigureAppium" finished-at="2024-06-27T11:36:17 EDT" duration-ms="17823" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfigureAppium -->
-        <test-method signature="AffiliateOnboarding()[pri:0, instance:QA_Assessment.QAapp_wema.OnboardingTest@6989da5e]" started-at="2024-06-26T22:09:12 EDT" name="AffiliateOnboarding" finished-at="2024-06-26T22:09:21 EDT" duration-ms="8769" status="PASS">
+        <test-method signature="staff_signup()[pri:0, instance:QA_Assessment.QAapp_wema.StaffSignUp@6989da5e]" started-at="2024-06-27T11:36:17 EDT" name="staff_signup" finished-at="2024-06-27T11:36:32 EDT" duration-ms="14217" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AffiliateOnboarding -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:QA_Assessment.QAapp_wema.OnboardingTest@6989da5e]" started-at="2024-06-26T22:09:21 EDT" name="tearDown" finished-at="2024-06-26T22:09:22 EDT" duration-ms="1029" status="PASS">
+        </test-method> <!-- staff_signup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:QA_Assessment.QAapp_wema.StaffSignUp@6989da5e]" started-at="2024-06-27T11:36:32 EDT" name="tearDown" finished-at="2024-06-27T11:36:32 EDT" duration-ms="684" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- QA_Assessment.QAapp_wema.OnboardingTest -->
+      </class> <!-- QA_Assessment.QAapp_wema.StaffSignUp -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
